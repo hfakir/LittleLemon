@@ -2,6 +2,9 @@
 
 Capstone project for the Meta iOS Developer Professional Certificate on Coursera.
 
+![App Demo](app-demo.gif)![Uploading app-demo.gif…]()
+
+
 ## Features
 - **Onboarding Screen:** User registration with persistent local storage.
 - **Home Screen:** Interactive menu list with search and category filters.
