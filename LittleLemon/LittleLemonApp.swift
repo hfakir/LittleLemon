@@ -11,11 +11,17 @@ import CoreData
 @main
 struct LittleLemonApp: App {
     let persistenceController = PersistenceController.shared
+    @AppStorage("kIsLoggedIn") var isLoggedIn = false
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            if isLoggedIn {
+                Home()
+                    .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            } else {
+                Onboarding()
+                    .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            }
         }
     }
 }
