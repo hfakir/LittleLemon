@@ -2,7 +2,8 @@
 
 Capstone project for the Meta iOS Developer Professional Certificate on Coursera.
 
-![Uploading app-demo.gif…]()
+<img width="400" height="790" alt="app-demo" src="https://github.com/user-attachments/assets/1cc88c69-a297-4174-9485-a06a408ea8ee" />
+
 
 
 
